@@ -1,0 +1,12 @@
+[
+  {
+    "titulo": "Buenas prácticas en JavaScript",
+    "descripcion": "Código limpio y mantenible",
+    "fecha": "2026-04-10"
+  },
+  {
+    "titulo": "React moderno",
+    "descripcion": "Uso de hooks y componentes",
+    "fecha": "2026-04-08"
+  }
+]
