@@ -12,8 +12,10 @@ fetch("data/noticias.json")
       // Inserta contenido dinámico
       div.innerHTML = `
         <h3>${n.titulo}</h3>
+        <p>${n.autor}</p>
         <p>${n.descripcion}</p>
         <small>${n.fecha}</small>
+        
       `;
       contenedor.appendChild(div);
     });

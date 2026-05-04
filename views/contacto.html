@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Configuración de caracteres, UTF-9 es para cracteres especiales como tildes, ñ, etc -->
+  <meta charset="UTF-8">
+  <!-- Permite diseño responsive en móviles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Título de la página -->
+  <title>Desarrollo Web</title>
+  <!-- Hoja estilo externa -->
+  <link rel="stylesheet" href="../css/estilo.css">
+  <!-- Fuente externa de Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+</head>
+<body>
+<!-- NAVBAR -->
+<!-- ================= MENÚ DE NAVEGACIÓN ================= -->
+<nav>
+  <h2>LuigiDelAguila</h2>
+  <ul>
+    <li><a href="../index.html">Inicio</a></li>
+    <li><a href="galeria.html">Galería</a></li>
+    <li><a href="presupuesto.html">Presupuesto</a></li>
+    <li><a href="contacto.html" class="active">Contacto</a></li>
+  </ul>
+</nav>
+<!-- ====================== CONTACTO ======================== -->
+<section class="container">
+   <h2>Contáctanos</h2>
+
+  <p><strong>Dirección:</strong> Santsaerreka 13, Araia, España</p>
+  <p><strong>Email:</strong> andre.delaguila.o@gmail.com</p>
+  <p><strong>Teléfono:</strong> +34 664 502 686</p>
+
+  <!-- MAPA -->
+  <div id="map"></div>
+
+  <button id="btnRuta">Calcular ruta hacia mi ubicación</button>
+
+</section>
+<!-- ================= PIE DE PÁGINA ================= -->
+<footer>
+  <!-- Redes sociales -->
+  <div class="redes">
+    <a href="https://www.facebook.com/andre.delaguilaocampo" target="_blank">
+      <img src="../img/facebook.png" alt="Facebook" class="icono-red">
+    </a>
+
+    <a href="https://linkedin.com" target="_blank">
+      <img src="../img/linkedin.png" alt="LinkedIn" class="icono-red">
+    </a>
+
+    <a href="https://github.com" target="_blank">
+      <img src="../img/github.png" alt="GitHub" class="icono-red">
+    </a>
+  </div>
+  <p>Dirección: Araia, España</p>
+  <p>©2026 LuigiDelAguila - Todos los derechos reservados</p>
+</footer>
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="../js/contacto.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Configuración de caracteres, UTF-9 es para cracteres especiales como tildes, ñ, etc -->
+  <meta charset="UTF-8">
+  <!-- Permite diseño responsive en móviles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Título de la página -->
+  <title>Desarrollo Web</title>
+  <!-- Hoja estilo externa -->
+  <link rel="stylesheet" href="../css/estilo.css">
+  <!-- Fuente externa de Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- NAVBAR -->
+<!-- ================= MENÚ DE NAVEGACIÓN ================= -->
+<nav>
+  <h2>LuigiDelAguila</h2>
+  <ul>
+    <li><a href="../index.html">Inicio</a></li>
+    <li><a href="galeria.html">Galería</a></li>
+    <li><a href="presupuesto.html" class="active">Presupuesto</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+</nav>
+<!-- ====================== FORMULARIO ======================== -->
+<section class="container">
+  <h2>Solicitar Presupuesto</h2>
+
+  <form id="formulario">
+
+    <!-- ================= DATOS ================= -->
+  <fieldset><legend>Datos de contacto</legend>
+
+    <label>Nombre:</label><input type="text" id="nombre" placeholder="Nombre" maxlength="15">
+    <label>Apellidos:</label><input type="text" id="apellidos" placeholder="Apellidos" maxlength="40">
+    <label>Teléfono de contacto:</label><input type="text" id="telefono" placeholder="Teléfono" maxlength="9">
+    <label>Correo electrónico:</label><input type="email" id="email" placeholder="Correo">
+  </fieldset>
+    <!-- ================= PRODUCTO ================= -->
+  <fieldset><legend>Presupuesto</legend>
+    <label>Producto:</label>
+    <select id="producto">
+      <option value="0">Seleccione una opción</option>
+      <option value="500">Página básica - S/500</option>
+      <option value="1000">Web profesional - S/1000</option>
+      <option value="1500">E-commerce - S/1500</option>
+    </select>
+    <label>Plazo (meses)</label>
+    <input type="number" id="plazo" min="1" max="12">
+
+    <label>Extras</label>
+    <label class="normal"><input type="checkbox" class="extra" value="200"> SEO</label>
+    <label class="normal"><input type="checkbox" class="extra" value="300"> Mantenimiento</label>
+    <label class="normal"><input type="checkbox" class="extra" value="150"> Hosting</label>
+
+     <label>Total</label>
+    <input type="text" id="total" readonly>
+  </fieldset>  
+  
+    <!-- ================= CONDICIONES ================= -->
+  <fieldset><legend>Aceptación condiciones y envío del presupuesto</legend>
+    <label class="normal">
+      <input type="checkbox" id="condiciones"> He leído la política de privacidad
+    </label>
+
+    <button type="submit">Enviar</button> <button type="reset" id="cancel">Cancelar</button>
+  </fieldset>
+  </form>
+</section>
+<!-- ================= PIE DE PÁGINA ================= -->
+<footer>
+  <!-- Redes sociales -->
+  <div class="redes">
+    <a href="https://www.facebook.com/andre.delaguilaocampo" target="_blank">
+      <img src="../img/facebook.png" alt="Facebook" class="icono-red">
+    </a>
+
+    <a href="https://linkedin.com" target="_blank">
+      <img src="../img/linkedin.png" alt="LinkedIn" class="icono-red">
+    </a>
+
+    <a href="https://github.com" target="_blank">
+      <img src="../img/github.png" alt="GitHub" class="icono-red">
+    </a>
+  </div>
+  <p>Dirección: Araia, España</p>
+  <p>©2026 LuigiDelAguila - Todos los derechos reservados</p>
+</footer>
+
+<script src="../js/presupuesto.js"></script>
+</body>
+</html>

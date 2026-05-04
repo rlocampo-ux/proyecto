@@ -2,16 +2,19 @@
   {
     "titulo": "Buenas prácticas en JavaScript",
     "descripcion": "Código limpio y mantenible",
-    "fecha": "2026-04-10"
+    "fecha": "2026-04-10",
+    "autor": "André del Aguila"
   },
   {
     "titulo": "React moderno",
     "descripcion": "Uso de hooks y componentes",
-    "fecha": "2026-04-08"
+    "fecha": "2026-04-08",
+    "autor": "Liliana Ocampo"
   },
   {
-    "titulo": "ABC",
-    "descripcion": "Lorem ipsum kd skjdlajdlksajldkj aslkjd lkajsdl jaldj lakjdl ajdlj aslkdj laskjd lkasjdl ajldj alskjd lkajdlkjasljd",
-    "fecha": "2026-04-17"
+    "titulo": "kjas lkjd ksjak asjdkja",
+    "descripcion": "Uso de hooks y componentes",
+    "fecha": "2026-04-08",
+    "autor": "Liliana Ocampo"
   }
 ]
